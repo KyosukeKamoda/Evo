@@ -1,3 +1,4 @@
+/*作成者 鴨田*/
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

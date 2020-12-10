@@ -1,3 +1,4 @@
+/*作成者 酒井 */
 using UnityEngine;
 
 namespace SubScripts.Base

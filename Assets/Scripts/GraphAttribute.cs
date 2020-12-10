@@ -166,7 +166,7 @@ public class GraphDrawer : PropertyDrawer
         EditorGUI.LabelField(new Rect(area.x - 50, area.y, 40, 16), string.Format("{0:f3}", max));
         EditorGUI.LabelField(new Rect(area.x - 50, area.y + area.height - 16, 40, 16), string.Format("{0:f3}", min));
 
-        // Draw graph 
+        // Draw graph
         for (int dim = 0; dim < dimentions; ++dim)
         {
             var values = new Vector3[data.Count];

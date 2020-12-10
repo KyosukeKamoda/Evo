@@ -1,3 +1,4 @@
+/*作成者 酒井*/
 ﻿using UnityEngine;
 
 namespace SubScripts.Base
@@ -17,7 +18,7 @@ namespace SubScripts.Base
 
                 if (_instance == null)
                 {
-                    var o = new GameObject();
+                    GameObject o = new GameObject();
 
                     _instance = o.AddComponent<T>();
 

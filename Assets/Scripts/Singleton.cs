@@ -1,3 +1,4 @@
+/*作成者 酒井*/
 namespace SubScripts.Base
 {
     public class Singleton<T> where T:Singleton<T>, new()

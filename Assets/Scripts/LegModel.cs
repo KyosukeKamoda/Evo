@@ -1,3 +1,5 @@
+/*作成者 酒井 */
+
 using System.Collections.Generic;
 using UnityEngine;
 using System;

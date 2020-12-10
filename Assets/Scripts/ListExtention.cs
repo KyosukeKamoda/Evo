@@ -1,3 +1,4 @@
+/*作成者 酒井 */
 using System;
 using UnityEngine;
 using System.Collections;
@@ -8,12 +9,10 @@ using Random = UnityEngine.Random;
 public static class ListExtention{
   public static T LoopElementAt<T>(this IList<T> list, int index)
   {
-      if (list.Count == 0) throw new ArgumentException("要素数が0のためアクセスできません");
+      if (list.Count == 0) throw new ArgumentException("要素数が0です");
 
-      // 分配
       index %= list.Count;
 
-      // 正の値にずらす
       if (index < 0)
       {
           index += list.Count;

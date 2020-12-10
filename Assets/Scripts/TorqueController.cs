@@ -1,3 +1,4 @@
+/*作成者 酒井*/
 using System;
 using System.Collections.Generic;
 using JetBrains.Annotations;
